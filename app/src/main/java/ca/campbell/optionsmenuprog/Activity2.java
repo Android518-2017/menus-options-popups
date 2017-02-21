@@ -19,7 +19,7 @@ private static final String TAG = "OPTMENU2";
 		setContentView(R.layout.activity_main);
 		// using the same layout as MainActivity with a few tweaks
 		TextView tv = (TextView) findViewById(R.id.instrs);
-		tv.setText(" Sounds courtesy of: http://www.acoustica.com/files/aclooplib/Sound%20Effects");
+		tv.setText(R.string.sound_credits);
 		tv.setAutoLinkMask(Linkify.ALL);
 		tv.setLinksClickable(true);
 

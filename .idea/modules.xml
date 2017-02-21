@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/week06-optionsMenu-programatically.iml" filepath="$PROJECT_DIR$/week06-optionsMenu-programatically.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week06-menusOptionsPopUp.iml" filepath="$PROJECT_DIR$/week06-menusOptionsPopUp.iml" />
     </modules>
   </component>
 </project>

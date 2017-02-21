@@ -1,14 +1,17 @@
 package ca.campbell.optionsmenuprog;
 /**
  * This illustrates programmatic creation of an option menu
- * <p/>
+ *
  * It is a simpler version of the original optionsMenu code
- * <p/>
+ *
  * Also I am playing fast and loose with the mediaplayer so it may crash
  * Check here for proper use
  * http://developer.android.com/reference/android/media/MediaPlayer.html
  *
  * @author Tricia
+ *
+ * Muppet sounds from http://www.soundboard.com/sb/The_Muppets_Sounds
+ *
  */
 
 import android.media.MediaPlayer;
@@ -111,11 +114,6 @@ public class MainActivity extends Activity {
                 Toast.makeText(this, "cats", Toast.LENGTH_SHORT).show();
                 Log.d(TAG, "cats");
                 return true;
-            case MENU_TIGER2:
-                startMediaPlayer(R.raw.tigergrowldeep);
-                Toast.makeText(this, "cats", Toast.LENGTH_SHORT).show();
-                Log.d(TAG, "cats");
-                return true;
 
             case MENU_CHICKENS:
                 startMediaPlayer(R.raw.chicken);
@@ -198,7 +196,7 @@ public class MainActivity extends Activity {
 
     /**
      * Stop the mediaplayer if it is running
-     ** /
+     **/
 
     public void stopMediaPlayer() {
         if (mp != null && mp.isPlaying()) {
